@@ -17770,14 +17770,15 @@ const bC = () => {
         children: [
           S.jsx("h1", {
             className:
-              "font-heading md:text-7xl font-extrabold uppercase text-primary leading-tight mb-6 text-4xl",
-            children: "Kit Relíquias do Serralheiro",
+              "font-heading font-extrabold uppercase text-primary leading-tight mb-6",
+            style: { fontSize: "34px" },
+            children: "+1.300 Projetos de Serralheria Práticos e Lucrativos: Do corte à solda e acabamento. É só fabricar e vender!",
           }),
           S.jsxs("p", {
             className:
               "md:text-xl text-foreground mb-2 py-0 px-0 font-[serif] text-center my-0 mx-0 text-lg font-extrabold",
             children:
-              "1.300 Projetos práticos: do corte à solda, direto para o seu bolso.",
+              "Kit Relíquias do Serralheiro",
           }),
           S.jsx("div", {
             className: "my-10 max-w-2xl mx-auto",
@@ -19105,8 +19106,8 @@ const bC = () => {
                     className:
                       "font-heading font-bold text-center py-4 rounded-xl transition-opacity hover:opacity-90 mt-auto uppercase block",
                     style: {
-                      backgroundColor: "#ffffff",
-                      color: "#1F51DB",
+                      backgroundColor: "#22c55e",
+                      color: "#ffffff",
                       fontSize: "1.125rem",
                       textDecoration: "none",
                     },
