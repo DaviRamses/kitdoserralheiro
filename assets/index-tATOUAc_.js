@@ -17815,7 +17815,7 @@ const bC = () => {
       icon: fx,
       title: "Desenhando do zero",
       description:
-        "Gasta horas rabiscando no caderno ou na tela tentando montar o modelo do absoluto zero.",
+        "Chega de desenhar do zero e perder clientes para quem já tem tudo pronto.",
     },
     {
       icon: lx,
