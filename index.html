@@ -111,11 +111,11 @@
 </div>
 <script>
   document.addEventListener('click', function(e) {
-    let target = e.target.closest('a');
+    let target = e.target.closest('a, button');
     if (!target) return;
 
-    let text = target.textContent || "";
-    let isBasico = text.toUpperCase().includes('PLANO BÁSICO');
+    let text = (target.textContent || "").toUpperCase();
+    let isBasico = text.includes('PLANO B') || text.includes('BÁSICO') || text.includes('BASICO') || text.includes('QUERO O B');
 
     if (isBasico) {
       e.preventDefault();
