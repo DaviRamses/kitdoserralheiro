@@ -17821,7 +17821,7 @@ const bC = () => {
       icon: lx,
       title: "Sem ideias do que fazer",
       description:
-        "Fica perdido sem saber quais peças têm boa saída no mercado atual.",
+        "Gasta material, tempo e suor fabricando modelos que ninguém quer comprar.",
     },
     {
       icon: xx,
@@ -18555,150 +18555,14 @@ const bC = () => {
                           }),
                         ],
                       }),
-                      S.jsxs("li", {
-                        className: "flex items-center gap-3 opacity-50",
-                        children: [
-                          S.jsx("span", {
-                            style: { color: "#ef4444", fontWeight: "bold" },
-                            children: "\u2715",
-                          }),
-                          S.jsx("span", {
-                            className: "font-medium",
-                            style: {
-                              color: "#9ca3af",
-                              fontSize: "0.95rem",
-                              textDecoration: "line-through",
-                            },
-                            children: "Certificado incluso",
-                          }),
-                        ],
-                      }),
-                      S.jsxs("li", {
-                        className: "flex items-center gap-3 opacity-50",
-                        children: [
-                          S.jsx("span", {
-                            style: { color: "#ef4444", fontWeight: "bold" },
-                            children: "\u2715",
-                          }),
-                          S.jsx("span", {
-                            className: "font-medium",
-                            style: {
-                              color: "#9ca3af",
-                              fontSize: "0.95rem",
-                              textDecoration: "line-through",
-                            },
-                            children: "Dimensões exatas dos perfis",
-                          }),
-                        ],
-                      }),
-                      S.jsxs("li", {
-                        className: "flex items-center gap-3 opacity-50",
-                        children: [
-                          S.jsx("span", {
-                            style: { color: "#ef4444", fontWeight: "bold" },
-                            children: "\u2715",
-                          }),
-                          S.jsx("span", {
-                            className: "font-medium",
-                            style: {
-                              color: "#9ca3af",
-                              fontSize: "0.95rem",
-                              textDecoration: "line-through",
-                            },
-                            children: "Lista de ferro e acessórios",
-                          }),
-                        ],
-                      }),
-                      S.jsxs("li", {
-                        className: "flex items-center gap-3 opacity-50",
-                        children: [
-                          S.jsx("span", {
-                            style: { color: "#ef4444", fontWeight: "bold" },
-                            children: "\u2715",
-                          }),
-                          S.jsx("span", {
-                            className: "font-medium",
-                            style: {
-                              color: "#9ca3af",
-                              fontSize: "0.95rem",
-                              textDecoration: "line-through",
-                            },
-                            children: "Guia prático para os cortes",
-                          }),
-                        ],
-                      }),
-                      S.jsxs("li", {
-                        className: "flex items-center gap-3 opacity-50",
-                        children: [
-                          S.jsx("span", {
-                            style: { color: "#ef4444", fontWeight: "bold" },
-                            children: "\u2715",
-                          }),
-                          S.jsx("span", {
-                            className: "font-medium",
-                            style: {
-                              color: "#9ca3af",
-                              fontSize: "0.95rem",
-                              textDecoration: "line-through",
-                            },
-                            children: "Macetes de solda e finalização",
-                          }),
-                        ],
-                      }),
-                      S.jsxs("li", {
-                        className: "flex items-center gap-3 opacity-50",
-                        children: [
-                          S.jsx("span", {
-                            style: { color: "#ef4444", fontWeight: "bold" },
-                            children: "\u2715",
-                          }),
-                          S.jsx("span", {
-                            className: "font-medium",
-                            style: {
-                              color: "#9ca3af",
-                              fontSize: "0.95rem",
-                              textDecoration: "line-through",
-                            },
-                            children: "Despesa calculada da peça",
-                          }),
-                        ],
-                      }),
-                      S.jsxs("li", {
-                        className: "flex items-center gap-3 opacity-50",
-                        children: [
-                          S.jsx("span", {
-                            style: { color: "#ef4444", fontWeight: "bold" },
-                            children: "\u2715",
-                          }),
-                          S.jsx("span", {
-                            className: "font-medium",
-                            style: {
-                              color: "#9ca3af",
-                              fontSize: "0.95rem",
-                              textDecoration: "line-through",
-                            },
-                            children: "Preço ideal para cobrar do cliente",
-                          }),
-                        ],
-                      }),
-                      S.jsxs("li", {
-                        className: "flex items-center gap-3 opacity-50",
-                        children: [
-                          S.jsx("span", {
-                            style: { color: "#ef4444", fontWeight: "bold" },
-                            children: "\u2715",
-                          }),
-                          S.jsx("span", {
-                            className: "font-medium",
-                            style: {
-                              color: "#9ca3af",
-                              fontSize: "0.95rem",
-                              textDecoration: "line-through",
-                            },
-                            children: "Margem de ganho limpo",
-                          }),
-                        ],
-                      }),
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
                     ],
                   }),
                   S.jsx("a", {
