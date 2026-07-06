@@ -18702,7 +18702,7 @@ const bC = () => {
                     ],
                   }),
                   S.jsx("a", {
-                    href: "https://tilimcheckout.com/checkout?p=0e488b8e87b725142dca73c7d636b1e9",
+                    href: "https://www.tilimcheckout.com/checkout?p=0e488b8e87b725142dca73c7d636b1e9",
                     target: "_blank",
                     className:
                       "font-heading font-bold text-center py-4 rounded-xl transition-opacity hover:opacity-90 mt-auto uppercase block",
@@ -19101,7 +19101,7 @@ const bC = () => {
                     ],
                   }),
                   S.jsx("a", {
-                    href: "https://tilimcheckout.com/checkout?p=8e3deaf5cf81d7bfb028e1e23df00cda",
+                    href: "https://www.tilimcheckout.com/checkout?p=8e3deaf5cf81d7bfb028e1e23df00cda",
                     target: "_blank",
                     className:
                       "font-heading font-bold text-center py-4 rounded-xl transition-opacity hover:opacity-90 mt-auto uppercase block",
