@@ -98,7 +98,7 @@
       </div>
 
       <!-- Buttons -->
-      <a href="https://www.tilimcheckout.com/checkout?p=310117dd8806d1fc77534a951800cf46" onclick="try{utmify('track','InitiateCheckout',{value:19.90,currency:'BRL',contents:[{id:'kit-completo',quantity:1}]})}catch(e){}" style="display: block; width: 100%; padding: 1.1rem; border-radius: 9999px; font-weight: 900; font-size: 1.05rem; text-transform: uppercase; background-color: #1F51DB; color: #ffffff; text-decoration: none; margin-bottom: 1rem; text-align: center; box-sizing: border-box; box-shadow: 0 10px 15px -3px rgba(31, 81, 219, 0.35);">
+      <a href="https://www.tilimcheckout.com/checkout?p=310117dd8806d1fc77534a951800cf46" target="_blank" onclick="try{utmify('track','InitiateCheckout',{value:19.90,currency:'BRL',contents:[{id:'kit-completo',quantity:1}]})}catch(e){}" style="display: block; width: 100%; padding: 1.1rem; border-radius: 9999px; font-weight: 900; font-size: 1.05rem; text-transform: uppercase; background-color: #1F51DB; color: #ffffff; text-decoration: none; margin-bottom: 1rem; text-align: center; box-sizing: border-box; box-shadow: 0 10px 15px -3px rgba(31, 81, 219, 0.35);">
         QUERO APROVEITAR AGORA →
       </a>
       
@@ -110,14 +110,40 @@
   </div>
 </div>
 <script>
+  // Mapa de produto -> valor para disparo correto do InitiateCheckout
+  var _utmCheckoutMap = {
+    '310117dd8806d1fc77534a951800cf46': { value: 19.90, id: 'kit-completo-desconto' },
+    '8e3deaf5cf81d7bfb028e1e23df00cda': { value: 24.90, id: 'kit-completo' },
+    '0e488b8e87b725142dca73c7d636b1e9': { value: 10.00, id: 'kit-basico' }
+  };
+
   document.addEventListener('click', function(e) {
-    let target = e.target.closest('a, button');
+    var target = e.target.closest('a[href], button');
     if (!target) return;
 
-    let text = (target.textContent || "").toUpperCase();
-    let isBasico = text.includes('PLANO B') || text.includes('BÁSICO') || text.includes('BASICO') || text.includes('QUERO O B');
+    var href = (target.href || target.getAttribute('href') || '');
+    var text = (target.textContent || '').toUpperCase().trim();
 
-    if (isBasico) {
+    // 1) Disparar InitiateCheckout em qualquer link de checkout
+    if (href.indexOf('tilimcheckout.com') !== -1) {
+      var paramMatch = href.match(/[?&]p=([a-f0-9]+)/);
+      if (paramMatch) {
+        var product = _utmCheckoutMap[paramMatch[1]];
+        if (product) {
+          try {
+            utmify('track', 'InitiateCheckout', {
+              value: product.value,
+              currency: 'BRL',
+              contents: [{ id: product.id, quantity: 1 }]
+            });
+          } catch(err) {}
+        }
+      }
+    }
+
+    // 2) Interceptar PLANO BASICO para mostrar modal de upsell
+    var isBasico = text.includes('PLANO B') || text.includes('B\u00c1SICO') || text.includes('BASICO') || text.includes('QUERO O B');
+    if (isBasico && href.indexOf('tilimcheckout.com') !== -1) {
       e.preventDefault();
       e.stopPropagation();
       document.getElementById('upsell-modal-html').style.display = 'flex';
