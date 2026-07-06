@@ -17792,7 +17792,7 @@ const bC = () => {
             className:
               "text-muted-foreground max-w-2xl mx-auto mb-8 md:text-lg text-center text-lg",
             children:
-              "Esqueça aulas. Kit Relíquias do Serralheiro traz projetos testados com cotas exatas, lista de ferro, gastos e margem de venda. 100% pronto para você fabricar e vender.",
+              "Não é teoria. Não é cursinho enrolado. É um arsenal com 1.300 projetos prontos com medidas exatas, listas de corte e custos calculados para você fabricar rápido, sem erro e vender com margem de lucro.",
           }),
           S.jsx("a", {
             href: "#pricing",
@@ -18703,7 +18703,6 @@ const bC = () => {
                   }),
                   S.jsx("a", {
                     href: "https://www.tilimcheckout.com/checkout?p=0e488b8e87b725142dca73c7d636b1e9",
-                    target: "_blank",
                     className:
                       "font-heading font-bold text-center py-4 rounded-xl transition-opacity hover:opacity-90 mt-auto uppercase block",
                     style: {
@@ -19102,7 +19101,6 @@ const bC = () => {
                   }),
                   S.jsx("a", {
                     href: "https://www.tilimcheckout.com/checkout?p=8e3deaf5cf81d7bfb028e1e23df00cda",
-                    target: "_blank",
                     className:
                       "font-heading font-bold text-center py-4 rounded-xl transition-opacity hover:opacity-90 mt-auto uppercase block",
                     style: {
