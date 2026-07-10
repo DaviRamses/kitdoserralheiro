@@ -17754,7 +17754,7 @@ const bC = () => {
               },
               className:
                 "bg-white text-blue-custom font-extrabold  px-5 py-2 rounded-lg font-body font-semibold text-sm flex items-center gap-2 hover:opacity-90 transition-opacity",
-              children: [S.jsx(gx, { className: "w-4 h-4" }), "Comprar AGORA!"],
+              children: [S.jsx(gx, { className: "w-4 h-4" }), "GARANTIR MEU KIT"],
             }),
           ],
         }),
@@ -17772,13 +17772,13 @@ const bC = () => {
             className:
               "font-heading font-extrabold uppercase text-primary leading-tight mb-6",
             style: { fontSize: "34px" },
-            children: "+1.300 Projetos de Serralheria Práticos e Lucrativos: Do corte à solda e acabamento. É só fabricar e vender!",
+            children: "Kit Rel\u00edquias do Serralheiro",
           }),
           S.jsxs("p", {
             className:
               "md:text-xl text-foreground mb-2 py-0 px-0 font-[serif] text-center my-0 mx-0 text-lg font-extrabold",
             children:
-              "Kit Relíquias do Serralheiro",
+              "+3.200 Projetos de Serralheria com Medidas, Custos e Pre\u00e7o de Venda Calculados Prontos pra Fabricar e Lucrar",
           }),
           S.jsx("div", {
             className: "my-10 max-w-2xl mx-auto",
@@ -17792,7 +17792,7 @@ const bC = () => {
             className:
               "text-muted-foreground max-w-2xl mx-auto mb-8 md:text-lg text-center text-lg",
             children:
-              "Não é teoria. Não é cursinho enrolado. É um arsenal com 1.300 projetos prontos com medidas exatas, listas de corte e custos calculados para você fabricar rápido, sem erro e vender com margem de lucro.",
+              "Voc\u00ea abre o projeto no celular, mostra pro cliente, fecha o or\u00e7amento na hora e j\u00e1 sai pra oficina fabricar. Cada modelo vem com medidas exatas, lista de material e custo calculado - sem surpresa no bolso.",
           }),
           S.jsx("a", {
             href: "#pricing",
@@ -17805,7 +17805,7 @@ const bC = () => {
             },
             className:
               "bg-white text-blue-custom font-extrabold inline-block  px-10 py-4 rounded-xl font-heading text-xl font-bold uppercase tracking-wider hover:opacity-90 transition-opacity",
-            children: "QUERO MEU KIT!",
+            children: "GARANTIR MEU KIT",
           }),
         ],
       }),
@@ -17815,25 +17815,25 @@ const bC = () => {
       icon: fx,
       title: "Desenhando do zero",
       description:
-        "Chega de desenhar do zero e perder clientes para quem já tem tudo pronto.",
+        "Você perde horas desenhando no papel antes de cortar o primeiro ferro - enquanto o concorrente já tá soldando.",
     },
     {
       icon: lx,
       title: "Sem ideias do que fazer",
       description:
-        "Gasta material, tempo e suor fabricando modelos que ninguém quer comprar.",
+        "Cliente pede algo diferente e você não tem referência pra mostrar. Resultado: ele vai embora.",
     },
     {
       icon: xx,
       title: "Ganhos baixos",
       description:
-        "Faz o serviço sem saber a despesa verdadeira e fecha a venda por um preço muito barato.",
+        "Sem saber o custo real da peça, o orçamento mal cobre o material. Você trabalha, mas não sobra nada.",
     },
     {
       icon: Ex,
       title: "Perde clientes",
       description:
-        "Sem um catálogo bonito para apresentar, você não passa confiança e perde a venda.",
+        "Sem um catálogo pra apresentar, o cliente fecha com quem mostra o serviço pronto na hora.",
     },
   ],
   NC = () =>
@@ -17896,12 +17896,12 @@ const bC = () => {
             className:
               "text-muted-foreground mb-10 max-w-3xl mx-auto text-lg text-center",
             children:
-              "É um acervo completo com diversos modelos de projetos de serralheria, separados por tipos, incluindo dimensões, materiais, despesas e valor de comercialização",
+              "O material vem organizado por categoria - port\u00f5es, grades, m\u00f3veis, estruturas - e abre direto no celular ou computador. Cada projeto traz as medidas dos perfis, lista de ferro, custo da pe\u00e7a e pre\u00e7o sugerido pra cobrar do cliente.",
           }),
           S.jsx("p", {
             className: "text-foreground font-semibold mb-8 text-lg",
             children:
-              "Zero teoria. Você apenas pega o modelo, produz e fatura.",
+              "Na prática: você abre o catálogo com o cliente na frente, escolhe o modelo, orça na hora e já sabe exatamente o que comprar de material pra começar.",
           }),
           S.jsx("div", {
             className: "max-w-2xl mx-auto",
@@ -17968,7 +17968,7 @@ const bC = () => {
               }),
               S.jsx("p", {
                 className: "text-white/90 mb-10 font-medium text-base",
-                children: "+ 3.200 projetos separados por áreas!",
+                children: "+ 3.200 projetos no Kit Completo, separados por categorias!",
               }),
               S.jsx("div", {
                 onMouseDown: () => setPaused(true),
@@ -18062,19 +18062,19 @@ const bC = () => {
   QC = "/assets/test3-DWMHL8p7.jpg",
   KC = [
     {
-      text: "Executei mais de 30 modelos do pacote até agora. O que mais me dá lucro rápido são as grades e os portões. Arquivos nota 10!",
+      text: "J\u00e1 executei mais de 30 modelos do kit. Grades e port\u00f5es s\u00e3o o que d\u00e3o lucro mais r\u00e1pido - pego o projeto, compro o material e em dois dias t\u00e1 pronto pra entregar.",
       name: "Marcos Vinícius",
       location: "Goiânia, GO",
       img: "https://i.ibb.co/8gSzm5yZ/random-person-2.jpg",
     },
     {
-      text: "Foi a melhor coisa que comprei pra firma. Esse kit entrega tudo mastigado: medidas, materiais e meu gasto. É só soldar e lucrar.",
+      text: "O kit entrega tudo mastigado: medidas, lista de material e o custo certinho. Eu abro o projeto, j\u00e1 sei quanto vou gastar e quanto vou cobrar. Melhor investimento que fiz pra firma.",
       name: "Fernando Costa",
       location: "Porto Alegre, RS",
       img: "https://i.ibb.co/zqY6pHC/random-person-5.jpg",
     },
     {
-      text: "Eu não conseguia oferecer minhas peças muito bem. Com esse kit aprendi a focar, hoje faço escadas e corrimão e consegui lucrar 3x mais!",
+      text: "Antes eu fazia de tudo um pouco e n\u00e3o lucrava. Com o kit, foquei em escadas e corrim\u00e3o - resultado: estou lucrando 3x mais do que antes.",
       name: "Antônio Ribeiro",
       location: "Recife, PE",
       img: "https://i.ibb.co/997C5pJP/random-person.jpg",
@@ -18147,19 +18147,19 @@ const bC = () => {
       }),
     }),
   qC = [
-    { icon: px, text: "Dimensões exatas dos perfis" },
-    { icon: dx, text: "Lista de ferro e acessórios" },
-    { icon: hx, text: "Guia prático para os cortes" },
-    { icon: ux, text: "Macetes de solda e finalização" },
-    { icon: ax, text: "Despesa calculada da peça" },
-    { icon: yx, text: "Preço ideal para cobrar do cliente" },
-    { icon: wx, text: "Margem de ganho limpo" },
+    { icon: px, text: "Dimens\u00f5es exatas dos perfis: zero erro de corte, zero desperd\u00edcio de material" },
+    { icon: dx, text: "Lista pronta de ferro e acess\u00f3rios: voc\u00ea compra certo, sem sobra nem falta" },
+    { icon: hx, text: "Guia de corte passo a passo: at\u00e9 quem t\u00e1 come\u00e7ando corta certo de primeira" },
+    { icon: ux, text: "Macetes de solda e acabamento: servi\u00e7o com cara de profissional" },
+    { icon: ax, text: "Custo da pe\u00e7a j\u00e1 calculado: voc\u00ea sabe quanto vai gastar antes de comprar o material" },
+    { icon: yx, text: "Pre\u00e7o ideal pra cobrar: nunca mais chute o or\u00e7amento" },
+    { icon: wx, text: "Margem de lucro l\u00edquida garantida em cada projeto" },
   ],
   YC = [
-    { text: "Tabela inteligente de orçamentos", icon: ox },
-    { text: "Contatos de distribuidores parceiros", icon: Sx },
-    { text: "Manual: como precificar e fechar a venda", icon: rx },
-    { text: "Os modelos que mais vendem no interior", icon: cx },
+    { text: "Tabela inteligente de or\u00e7amentos - calcule o valor em segundos e feche a venda na hora", icon: ox },
+    { text: "Contatos de distribuidores parceiros - compre material com desconto direto de quem fornece", icon: Sx },
+    { text: "Manual de precifica\u00e7\u00e3o e fechamento - aprenda a cobrar o pre\u00e7o certo sem perder cliente", icon: rx },
+    { text: "Os modelos que mais vendem no Brasil - foque no que d\u00e1 dinheiro de verdade", icon: cx },
   ],
   XC = () =>
     S.jsx("section", {
@@ -18577,6 +18577,11 @@ const bC = () => {
                     },
                     children: "QUERO O PLANO BÁSICO",
                   }),
+                  S.jsx("p", {
+                    className: "text-center mt-3",
+                    style: { color: "#9ca3af", fontSize: "0.75rem" },
+                    children: "\ud83d\udd12 Compra segura \u2022 Garantia de 7 dias",
+                  }),
                 ],
               }),
 
@@ -18796,7 +18801,7 @@ const bC = () => {
                           S.jsx("span", {
                             className: "font-medium",
                             style: { color: "#e5e7eb", fontSize: "0.95rem" },
-                            children: "Dimensões exatas dos perfis",
+                            children: "Dimens\u00f5es exatas dos perfis: zero erro de corte",
                           }),
                         ],
                       }),
@@ -18810,7 +18815,7 @@ const bC = () => {
                           S.jsx("span", {
                             className: "font-medium",
                             style: { color: "#e5e7eb", fontSize: "0.95rem" },
-                            children: "Lista de ferro e acessórios",
+                            children: "Lista pronta de ferro e acess\u00f3rios",
                           }),
                         ],
                       }),
@@ -18824,7 +18829,7 @@ const bC = () => {
                           S.jsx("span", {
                             className: "font-medium",
                             style: { color: "#e5e7eb", fontSize: "0.95rem" },
-                            children: "Guia prático para os cortes",
+                            children: "Guia de corte passo a passo",
                           }),
                         ],
                       }),
@@ -18838,7 +18843,7 @@ const bC = () => {
                           S.jsx("span", {
                             className: "font-medium",
                             style: { color: "#e5e7eb", fontSize: "0.95rem" },
-                            children: "Macetes de solda e finalização",
+                            children: "Macetes de solda e acabamento",
                           }),
                         ],
                       }),
@@ -18852,7 +18857,7 @@ const bC = () => {
                           S.jsx("span", {
                             className: "font-medium",
                             style: { color: "#e5e7eb", fontSize: "0.95rem" },
-                            children: "Despesa calculada da peça",
+                            children: "Custo da pe\u00e7a j\u00e1 calculado",
                           }),
                         ],
                       }),
@@ -18866,7 +18871,7 @@ const bC = () => {
                           S.jsx("span", {
                             className: "font-medium",
                             style: { color: "#e5e7eb", fontSize: "0.95rem" },
-                            children: "Preço ideal para cobrar do cliente",
+                            children: "Pre\u00e7o ideal pra cobrar do cliente",
                           }),
                         ],
                       }),
@@ -18880,7 +18885,7 @@ const bC = () => {
                           S.jsx("span", {
                             className: "font-medium",
                             style: { color: "#e5e7eb", fontSize: "0.95rem" },
-                            children: "Margem de ganho limpo",
+                            children: "Margem de lucro l\u00edquida garantida",
                           }),
                         ],
                       }),
@@ -18919,7 +18924,7 @@ const bC = () => {
                               children: S.jsx("div", {
                                 className: "font-medium text-sm sm:text-base",
                                 style: { color: "#ffffff" },
-                                children: "Tabela inteligente de orçamentos",
+                                children: "Tabela inteligente de or\u00e7amentos",
                               }),
                             }),
                           }),
@@ -18943,7 +18948,7 @@ const bC = () => {
                                 className: "font-medium text-sm sm:text-base",
                                 style: { color: "#ffffff" },
                                 children:
-                                  "Manual: como precificar e fechar a venda",
+                                  "Manual de precifica\u00e7\u00e3o e fechamento",
                               }),
                             }),
                           }),
@@ -18955,7 +18960,7 @@ const bC = () => {
                                 className: "font-medium text-sm sm:text-base",
                                 style: { color: "#ffffff" },
                                 children:
-                                  "Os modelos que mais vendem no interior",
+                                  "Os modelos que mais vendem no Brasil",
                               }),
                             }),
                           }),
@@ -18973,7 +18978,12 @@ const bC = () => {
                       fontSize: "1.125rem",
                       textDecoration: "none",
                     },
-                    children: "QUERO MEU ACESSO AGORA",
+                    children: "GARANTIR MEU KIT",
+                  }),
+                  S.jsx("p", {
+                    className: "text-center mt-3",
+                    style: { color: "#9ca3af", fontSize: "0.75rem" },
+                    children: "\ud83d\udd12 Compra segura \u2022 Garantia de 7 dias",
                   }),
                 ],
               }),
@@ -20573,11 +20583,11 @@ const Lb = "/assets/sofa-68Nh_PH1.png",
           S.jsx("h2", {
             className:
               "font-heading text-3xl md:text-4xl font-bold uppercase text-primary mb-3",
-            children: "Acesso para a vida inteira",
+            children: "Kit Completo: Acesso para a vida inteira",
           }),
           S.jsx("p", {
             className: "text-white/90 mb-10 text-lg",
-            children: "É um acervo com mais de 3.200 projetos no Kit!",
+            children: "S\u00e3o mais de 3.200 projetos no Kit Completo - e o acesso \u00e9 seu para sempre, sem mensalidade.",
           }),
           S.jsxs(rv, {
             opts: { align: "start" },
@@ -21036,6 +21046,21 @@ const h2 = [
       question: "E se eu tiver alguma dúvida?",
       answer:
         "Nossa equipe de suporte está pronta para te atender. É só mandar uma mensagem e responderemos rapidinho.",
+    },
+    {
+      question: "Preciso saber desenhar ou usar programa de projeto?",
+      answer:
+        "N\u00e3o. Os projetos j\u00e1 v\u00eam prontos com todas as medidas e listas de material. Voc\u00ea n\u00e3o precisa de AutoCAD, SketchUp nem nenhum programa. \u00c9 s\u00f3 abrir no celular ou computador e seguir o passo a passo.",
+    },
+    {
+      question: "Funciona pra quem t\u00e1 come\u00e7ando na serralheria?",
+      answer:
+        "Sim. O kit foi pensado justamente pra quem quer come\u00e7ar com o p\u00e9 direito, sem precisar ficar tentando e errando. Cada projeto vem com guia de corte, lista de ferro e custo calculado - \u00e9 s\u00f3 seguir.",
+    },
+    {
+      question: "Os projetos servem pra qualquer regi\u00e3o do Brasil?",
+      answer:
+        "Servem. Os modelos s\u00e3o universais e os materiais s\u00e3o encontrados em qualquer distribuidora do pa\u00eds. As medidas e listas funcionam igual em qualquer estado.",
     },
   ],
   m2 = () =>
